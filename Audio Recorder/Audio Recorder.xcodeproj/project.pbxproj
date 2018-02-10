@@ -121,7 +121,8 @@
 				TargetAttributes = {
 					2F8EF3F81E16D4FE00585EA0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = HUF2QHK4ME;
+						DevelopmentTeam = 3GQ5FNA33H;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -238,6 +239,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -280,6 +282,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -289,12 +292,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HUF2QHK4ME;
+				DEVELOPMENT_TEAM = 3GQ5FNA33H;
 				INFOPLIST_FILE = "Audio Recorder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Venkat-Kukunuru.Audio-Recorder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raksys.dev-demo.Audio-Recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -302,12 +306,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HUF2QHK4ME;
+				DEVELOPMENT_TEAM = 3GQ5FNA33H;
 				INFOPLIST_FILE = "Audio Recorder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Venkat-Kukunuru.Audio-Recorder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raksys.dev-demo.Audio-Recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

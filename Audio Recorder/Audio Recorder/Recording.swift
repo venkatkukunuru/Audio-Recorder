@@ -109,7 +109,7 @@ open class Recording : NSObject {
     
     // MARK: - Metering
     
-    func updateMeter() {
+    @objc func updateMeter() {
         guard let recorder = recorder else { return }
         
         recorder.updateMeters()
